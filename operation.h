@@ -12,4 +12,15 @@ Does a-b and returns result
 */
 int subtract(int a, int b);
 
+/*
+Multiplies a and b
+Returns result
+*/
+int mult(int a, int b);
+
+/*
+Returns result of a/b
+*/
+double divide(double a, double b);
+
 #endif
