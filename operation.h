@@ -18,4 +18,9 @@ Returns result
 */
 int mult(int a, int b);
 
+/*
+Returns result of a/b
+*/
+double divide(double a, double b);
+
 #endif
