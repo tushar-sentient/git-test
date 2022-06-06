@@ -5,6 +5,7 @@ Commit messages will have more info
 
 #include <stdio.h>
 
+#include "numlist.h"
 #include "operation.h"
 
 int main()
@@ -13,6 +14,6 @@ int main()
     printf("Subtracting 3 and 4: %d\n", subtract(3, 4));
     printf("Multiplying 3 and 4: %d\n", mult(3, 4));
     printf("Dividing 3 and 4: %f\n", divide(3.0, 4.0));
-    printf("Dividing 3 and 4: %f\n", divide(3.0, 0.0));
+    fibonacci_list(7);
     return 0;
 }
