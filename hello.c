@@ -11,5 +11,6 @@ int main()
 {
     printf("Adding 3 and 4: %d\n", add(3, 4));
     printf("Subtracting 3 and 4: %d\n", subtract(3, 4));
+    printf("Multiplying 3 and 4: %d\n", mult(3, 4));
     return 0;
 }
