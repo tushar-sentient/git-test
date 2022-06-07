@@ -8,6 +8,7 @@ a.out : *.o
 
 *.o : *.c
 	$(CC) $(COMPILE) *.c
+	$(CC) $(COMPILE) submodule/*.c
 
 clean:
 	rm -rf *.o a.out
