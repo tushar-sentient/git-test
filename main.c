@@ -19,5 +19,8 @@ int main()
     is_prime(prime_test) ? 
         printf("%d is prime\n", prime_test) :
         printf("%d is not prime\n", prime_test);
+
+    printf("Experimenting with branch name deletion\n");
+
     return 0;
 }
