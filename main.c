@@ -20,6 +20,6 @@ int main()
         printf("%d is prime\n", prime_test) :
         printf("%d is not prime\n", prime_test);
     // this addition is to put a merge conflict
-    // here is another merge conflict
+    // conflicts were resolved on github.com
     return 0;
 }
