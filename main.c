@@ -19,5 +19,6 @@ int main()
     is_prime(prime_test) ? 
         printf("%d is prime\n", prime_test) :
         printf("%d is not prime\n", prime_test);
+    // this comment is added for merge conflict
     return 0;
 }
