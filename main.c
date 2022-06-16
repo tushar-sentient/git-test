@@ -21,5 +21,8 @@ int main()
         printf("%d is not prime\n", prime_test);
     // this addition is to put a merge conflict
     // conflicts were resolved on github.com
+
+    printf("This is an example branch.\n");
+
     return 0;
 }
